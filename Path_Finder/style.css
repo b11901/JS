@@ -1,14 +1,14 @@
 #grid > div {
     width: 100px;
     height: 100px;
-    float: left;    
+    float: left;
     border: 1px solid black;
     text-justify: auto;
     text-align: center;
 }
 
 #grid {
-    width: 350px;
+    padding: 50px;
 }
 
 #block {
