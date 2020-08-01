@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stack</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Stack</h1>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="form-inline">
+                <p>
+                <h4>Enter the size of the stack:</h4>
+                </p>
+                <input id="stack_size" class="form-control  ml-2">
+                <button id="btn_stack_size" class="btn btn-primary ml-2" onclick="createStack()">Create
+                    Stack</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div id="stack" class="mt-5 col-4"></div>
+            <div id="top_position" class="ml-3 col-4"></div>
+        </div>
+        <div class="row" id="stack_op" style="display:none">
+            <div class="row mt-5">
+                <input id="item" class="form-control  ml-2">
+            </div>
+            <div class="sizedbox"> </div>
+            <button id="btn_stack_size" class="btn btn-primary mt-2 col-12 " onclick="addToStack()">Push to
+                Stack</button>
+            <div class="sizedbox"> </div>
+            <div>
+                <button class="btn btn-danger btn-block" onclick="popFromStack()">Pop From Stack</button>
+
+            </div>
+
+            <div id="stack_output">
+                <h3>Stack Output</h3>
+                <button class="btn btn-ml-2" id="clear">Clear</button>
+            </div>
+            <div id="popped_elements"></div>
+            <div id="content">
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

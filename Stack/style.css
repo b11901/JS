@@ -1,0 +1,34 @@
+body{
+    margin-top: 20px;
+}
+.stack_elem{
+    width: 200px;
+    height: 25px;
+    background-color: lightgreen;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.sizedbox {
+    height: 20px;
+}
+
+.value {
+   color: whitesmoke;
+}
+
+#stack_output{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.output_elem {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#content {
+    margin-top: 20px;
+}
